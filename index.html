@@ -31,7 +31,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      background: url('inicio.jpeg') center/cover;
+      background: url('inicio.jpeg') center/auto no-repeat;
     }
 
     #title {
@@ -139,7 +139,7 @@
       document.getElementById('title').innerText = message;
       button.disabled = true;
 
-      document.getElementById('container').style.background = "url('aceitou.jpeg') center/cover";
+      document.getElementById('container').style.background = "url('aceitou.jpeg') center/auto no-repeat";
 
       // Adicionar efeito de foguetes em forma de coração
       particlesJS('particles-container', {
